@@ -1,6 +1,6 @@
-function contarPalabrasDeString(string) {
-  const palabra = string.split(" ");
-  const resultado = palabra.length;
+function contarPalabrasDeString(caracter) {
+  const palabra = caracter.split(" ");
+  const resultado = caracter.length;
   return resultado;
 }
 console.log(contarPalabrasDeString("Hola mundo"));
