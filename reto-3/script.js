@@ -25,7 +25,7 @@ function obtenerMesDelAño(numero) {
   case 12:
     return "diciembre";
   case 13:
-    break
+    break;
     default "No soy un mes"
  
 };
