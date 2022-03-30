@@ -5,3 +5,4 @@ function determinarNumeros(numero) {
     return "soy un numero  inpar";
   }
 }
+console.log(determinarNumeros(10, 2));

@@ -1,7 +1,7 @@
-function division(dividendo, divisor) {
-  if (dividendo == 0) {
+function division(divisor, dividendo) {
+  if (divisor == 0) {
     return "No es divisible por 0";
   }
-  return dividendo / divisor;
+  return divisor / dividendo;
 }
-console.log(numeros(0, 5));
+console.log(numeros(5, 1));

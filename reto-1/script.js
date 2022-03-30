@@ -1,4 +1,4 @@
-function numeros(a, b) {
+function numerosAMultiplicar(a, b) {
   return a * b;
 }
-console.log(numeros(10, 4));
+console.log(numerosAMultiplicar(10, 4));

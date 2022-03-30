@@ -1,7 +1,5 @@
-function contarPalabrasDeString(caracter) {
-  const palabra = caracter.split(" ");
-  const resultado = caracter.length;
-  return resultado;
+function removerConsonatesDeUnstring(texto) {
+  return (texto = texto.replace(/[^aeiouAEIOU]/g, ""));
 }
-console.log(contarPalabrasDeString("Hola mundo"));
-console.log(contarPalabrasDeString("Maria Angelica Diavanera"));
+console.log(removerConsonatesDeUnstring("Hola mundo"));
+console.log(removerConsonatesDeUnstring("Maria Angelica Diavanera"));
