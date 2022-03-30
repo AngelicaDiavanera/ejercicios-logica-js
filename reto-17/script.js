@@ -1,8 +1,6 @@
-function organizarAlfabeticamenteNombres(nombre) {
-  const nombres = nombre.sort();
-
-  return nombres;
+function organizarAlfabeticamente(array) {
+  return array.sort();
 }
 console.log(
-  organizarAlfabeticamenteNombres(["Martina", "Andres", "Xiomara", "Alejandro"])
+  organizarAlfabeticamente(["Martina", "Andres", "Xiomara", "Alejandro"])
 );

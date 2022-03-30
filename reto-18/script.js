@@ -1,6 +1,4 @@
-function organizarListadoDePrecios() {
-  const precios = ["3800", "700", "10000", "200"];
-
+function organizarListadoDePreciosAsc(precios) {
   return precios.sort((a, b) => a - b);
 }
-console.log(organizarListadoDePrecios());
+console.log(organizarListadoDePreciosAsc(["3800", "700", "10000", "200"]));

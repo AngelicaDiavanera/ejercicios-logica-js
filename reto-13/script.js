@@ -1,5 +1,5 @@
-function calcularAreaDeUnTriangulo(base, h) {
-  return (base * h) / 2;
+function calcularAreaDeUnCuadrado(lado) {
+  return lado * lado;
 }
 
-console.log(calcularAreaDeUnTriangulo(5, 10));
+console.log(calcularAreaDeUnTriangulo(5));

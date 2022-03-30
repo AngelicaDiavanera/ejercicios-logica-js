@@ -1,4 +1,4 @@
-function calcularAreaDeUnCirculo(radio, PI) {
-  return radio * radio * PI;
+function calcularAreaDeUnCirculo(radio) {
+  return radio * radio * Math.PI;
 }
-console.log(calcularAreaDeUnCirculo(5, 5));
+console.log(calcularAreaDeUnCirculo(5));

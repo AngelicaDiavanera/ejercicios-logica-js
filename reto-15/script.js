@@ -1,5 +1,6 @@
-function convertirPesoADolar(peso, dolar) {
-  return peso * dolar;
+function convertirPesosADolares(peso) {
+  return peso / 3800;
 }
 
-console.log(convertirPesoADolar(3800, 5));
+console.log(convertirPesosADolares(3800)); // 1
+console.log(convertirPesosADolares(7600)); // 2

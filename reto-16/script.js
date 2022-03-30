@@ -1,6 +1,6 @@
-function convertirDolarAPeso(valor) {
-  let valorDolar = 3800;
-  return valorDolar / valor;
+function convertirDolaresAPesos(valor) {
+  return valor * 3800;
 }
 
-console.log(convertirDolarAPeso(3800));
+console.log(convertirDolaresAPesos(1)); // 3800
+console.log(convertirDolaresAPesos(2)); // 7600

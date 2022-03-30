@@ -1,6 +1,4 @@
 function invertirUnNumero(numero) {
-  const array = numero.split("");
-  array.reverse();
-  console.log(array.join(""));
+  return String(numero).split("").reverse().join("");
 }
-invertirUnNumero("987654321");
+console.log(invertirUnNumero(987654321));
